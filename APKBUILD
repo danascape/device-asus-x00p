@@ -25,4 +25,6 @@ package() {
 	devicepkg_package $startdir $pkgname
 }
 
-sha512sums="(run 'pmbootstrap checksum device-asus-x00p' to fill)"
+sha512sums="
+11a1818ac6f4310a4bc3953a788987305a2f89b1257a3c57dd0e97bca57e3f422929c29bab2c4f9ecc377ddfbd93190c4f499e01de8c673bd6b3bedf8f7fc2be  deviceinfo
+"
