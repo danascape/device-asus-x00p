@@ -10,12 +10,11 @@ options="!check !archcheck"
 depends="
 	linux-asus-x00p
 	mesa-dri-gallium
-	msm-fb-refresher
 	mkbootimg
 	postmarketos-base
 "
 makedepends="devicepkg-dev"
-source="deviceinfo"
+source="deviceinfo initfs-hook.sh"
 
 build() {
 	devicepkg_build $startdir $pkgname
